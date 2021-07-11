@@ -1,0 +1,33 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<!-- <filter> -->
+	<!-- <filter-name>demo_webxml</filter-name> -->
+	<!-- <filter-class>com.yrd.web.filter.FilterDemo_webxml</filter-class> -->
+	<!-- </filter> -->
+	<!-- <filter-mapping> -->
+	<!-- <filter-name>demo_webxml</filter-name> -->
+	<!-- 拦截路径，访问所有资源之前，都会执行该过滤器 -->
+	<!-- <url-pattern>/*</url-pattern> -->
+
+	<!-- </filter-mapping> -->
+	
+	
+	<!-- 指定初始化参数 -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/classes/applicationContext.xml</param-value>
+	</context-param>
+
+	<!-- 配置监听器 -->
+<!-- 	<listener> -->
+<!-- 		<listener-class>com.yrd.web.listener.ContextLoaderListener</listener-class> -->
+<!-- 	</listener> -->
+
+
+
+</web-app>
